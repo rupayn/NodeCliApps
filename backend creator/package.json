@@ -1,0 +1,19 @@
+{
+  "name": "backend-creator",
+  "version": "1.0.0",
+  "description": "I is a cli application for boilarplate of my backend application",
+  "main": "index.js",
+  "bin": {
+      "backendc":"script"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rupayan Nandi",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^12.3.0"
+  },
+  "keywords": []
+}

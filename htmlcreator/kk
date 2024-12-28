@@ -1,0 +1,33 @@
+#!/usr/bin/env node
+import create from "./index.js";
+
+// const CheckArg= function(){
+//     return new Promise(async (resolve)=>{
+//         if (!process.argv[3]) {
+//             console.log("do you want to create file with new folder and?: ");
+//             process.stdout.write('Enter your name: ');
+
+//             let userdata = '';
+
+//             process.stdin.on('data', (data) => {
+//                 userdata = data.toString().trim(); // Save input in a variable
+//                 // console.log(`Hello, ${userName}!`);
+//                 process.exit(); // Exit after receiving input
+//             });
+//             process.argv[3] = userdata;
+//         }
+//         return true
+//     })
+// }
+
+// await CheckArg()
+// .then(result=>{
+// create()
+// console.log(`Creation is successful\n${process.argv[3] ? `cd ${process.argv[3]}`:""}`)
+// })
+// .catch((value) => {
+//     console.log(value);
+    
+// })
+
+create()
