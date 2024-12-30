@@ -34,7 +34,7 @@ cd ./htmlcreator
 2. By default, the command to use this tool is `hmm`. If you want to change the default command, you can modify the `bin` section in the `package.json` file to your preferred command.
 
 3. To create a new project, run the command:
-- You can create any file with any extention using `hmm command`
+- You can create any file with any extension using `hmm command` with extension , if you only type `hmm` command then it will generate `index.html` file in present working directory
 - For example i am using `hmm` command to create a `html` file :
 ``` bash 
 hmm index.html
