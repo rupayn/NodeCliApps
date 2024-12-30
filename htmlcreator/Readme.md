@@ -40,7 +40,7 @@ cd ./htmlcreator
 hmm index.html
 ```
 - For creating a full project you should run the command like
-` hmm {filename.html} foldername `
+` hmm {filename.html} {foldername} `
 ```
 hmm index.html myProject
 ```
