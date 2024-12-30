@@ -9,6 +9,13 @@ To use these CLI applications, you need to have Node.js installed on your machin
 
 Follow the instructions in the respective directories to use the CLI applications.
 
+you can clone this repository:
+```bash
+git clone https://github.com/rupayn/NodeCliApps.git
+
+```
+then go to each directory and follow the instructions to use the CLI applications
+
 ## License
 
 This project is free to use, but currently, it does not have an open-source license. All developers are welcome to contribute and make it more efficient.
