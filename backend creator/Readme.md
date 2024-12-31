@@ -5,12 +5,18 @@ Hello everyone!
 This project is used to create the boilerplate code for a simple backend in Node.js with a folder structure using TypeScript. The folder structure of the generated backend project will look like this:
 ```
 .
-├── index.js
+├── index.ts
 ├── node_modules
 ├── package-lock.json
 ├── package.json
-├── sample.index.txt
-└── script
+├── src
+│   ├── Constants
+│   ├── Controllers
+│   ├── Middleware
+│   ├── Models
+│   ├── Routes
+│   └── Utils
+└── tsconfig.json
 ```
 ## Prerequisites
 
